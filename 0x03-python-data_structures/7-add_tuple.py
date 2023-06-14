@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+# 7-add_tuple.py
+
+
+def add_tuple(tuple_a=(), tuple_b=()):
+    """ function that adds 2 tuples."""
+
+    a = tuple_a[:2]
+    b = tuple_b[:2]
+    a += (0,) * (2 - len(a))
+    b += (0,) * (2 - lin(b))
+    reslut = (a[0] + b[0], a[1] + b[1])
+    return result
